@@ -24,16 +24,98 @@ body{
 .container{
     background-color: hsl(216, 50%, 16%);
     width: 350px;
-    height: 500px;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
 }
 
+.mainimg img{
+    width: 310px;
+}
+
+.mainimg{
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-bottom: 15px;
+}
+
 .text p{
     font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6rem;
+    color: hsl(215, 51%, 70%);
 }
 
 .text h2{
     font-size: 23px;
     font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.priceandtime{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.day{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.day img{
+    margin-right: 5px;
+}
+
+.eth{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color:hsl(178, 100%, 50%);
+}
+
+.eth img{
+    margin-right: 5px;
+}
+
+.creator{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    border: solid hsl(215, 51%, 70%);
+    border-width: 0.1px 0px 0px 0px;
+}
+
+.imgback{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.creator img{
+    width: 30px;
+}
+
+.creator p .creationof{
+    color:hsl(215, 51%, 70%);
+}
+
+a{
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
 }
